@@ -7,7 +7,7 @@
         WindowStartupLocation="CenterScreen">
 
     <Window.Resources>
-        <!-- Futuristic Button Style -->
+       
         <Style x:Key="CyberButton" TargetType="Button">
             <Setter Property="Background" Value="#0A0000"/>
             <Setter Property="Foreground" Value="#FF0000"/>
@@ -38,7 +38,7 @@
             </Setter>
         </Style>
 
-        <!-- Modern Input Style -->
+       
         <Style x:Key="CyberInput" TargetType="TextBox">
             <Setter Property="Background" Value="#050000"/>
             <Setter Property="Foreground" Value="#FF4444"/>
@@ -74,7 +74,7 @@
                 <RowDefinition Height="30"/> <!-- Footer -->
             </Grid.RowDefinitions>
 
-            <!-- Header Section -->
+           
             <Grid Grid.Row="0" Background="#0A0000">
                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="20,0">
                     <TextBlock Text="WEBHOOK DELETER" Foreground="White" FontSize="22" FontWeight="Black"/>
@@ -95,7 +95,7 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <!-- Control Panel (Left) -->
+               
                 <Border Grid.Column="0" BorderBrush="#33FF0000" BorderThickness="1" Background="#050000" Padding="20">
                     <Grid>
                         <Grid.RowDefinitions>
@@ -161,7 +161,7 @@
                 </Border>
             </Grid>
 
-            <!-- Footer Section -->
+           
             <Border Grid.Row="2" Background="#0A0000" BorderBrush="#FF0000" BorderThickness="0,1,0,0">
                 <Grid Margin="20,0">
                     <TextBlock Text="STATUS: SYSTEM OPERATIONAL" Foreground="#660000" VerticalAlignment="Center" FontSize="9" FontWeight="Bold"/>
