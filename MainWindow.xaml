@@ -133,7 +133,7 @@
                     </Grid>
                 </Border>
 
-                <!-- Log Panel (Right) -->
+              
                 <Border Grid.Column="1" BorderBrush="#33FF0000" BorderThickness="1" Background="#050000" Margin="20,0,0,0">
                     <Grid>
                         <Grid.RowDefinitions>
