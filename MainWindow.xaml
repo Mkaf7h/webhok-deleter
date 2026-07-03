@@ -69,9 +69,9 @@
     <Border BorderBrush="#FF0000" BorderThickness="1">
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="60"/> <!-- Header -->
-                <RowDefinition Height="*"/>  <!-- Main Content -->
-                <RowDefinition Height="30"/> <!-- Footer -->
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="*"/>  
+                <RowDefinition Height="30"/> 
             </Grid.RowDefinitions>
 
            
@@ -88,7 +88,7 @@
                 </StackPanel>
             </Grid>
 
-            <!-- Main Content Section -->
+            
             <Grid Grid.Row="1" Margin="20">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="350"/>
